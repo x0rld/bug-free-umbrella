@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+regex_commit = /\[(.*?)\]/
+COMMIT_MSG = File.open(ARGV[0])
+if !regex_commit.match(COMMIT_MSG.read)
+puts"you have no ticket ref in your commit"
+exit 1
+else puts "your commit is correct good job"
+end
