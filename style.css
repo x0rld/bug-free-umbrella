@@ -1,0 +1,31 @@
+#carre1 {
+    height: 60px;
+    width: 60px;
+    background: red;
+    left: 400px;
+    position: relative;
+    float:left;
+    bottom: -200px;
+
+}
+
+#carre2 {
+    height: 60px;
+    width: 60px;
+    background: red;
+    left: 600px;
+    position: relative;
+    float:left;
+    bottom: -200px;
+}
+
+#carre3 {
+    height: 60px;
+    width: 60px;
+    background: red;
+    left: 800px;
+    position: relative;
+    float:left;
+    bottom: -200px;
+
+}
